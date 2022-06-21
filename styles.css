@@ -15,7 +15,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #999;
+  color: white;
 }
 
 /* Section Styles */
@@ -47,9 +47,6 @@ a {
 }
 .nav a {
   transition: all .5s;
-}
-.nav a:hover {
-  color: white
 }
 
 header {
@@ -97,13 +94,13 @@ main {
   max-width: 500px;
   text-align: left;
   background: #5a5a5a;
+  color: white;
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
   transition: all .5s;
-  color: white;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: black;
 }
 
 ul.skills {
@@ -131,8 +128,12 @@ footer {
 }
 
 footer .copyright {
-  top: -8px;
-  font-size: .75em;
+  font-size: 15px;
+}
+
+.email {
+  color: white;
+  font-size: 20px;
 }
 
 footer ul {
@@ -159,7 +160,11 @@ a.social {
 .fa-brands {
   color: #14b297;
   font-size: 30px;
-  margin-right: 10px;
+  margin-right: 0px;
+}
+
+.fa-linkedin {
+  margin-right: 25px;
 }
 
 footer .fa-brands:hover {
@@ -203,3 +208,18 @@ footer .fa-brands:hover {
 
 }
 
+.main-projects {
+  width: 100%;
+  background-color: black;
+}
+
+.flex-projects {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.project {
+  border: 4px solid black;
+  margin-right: 30px;
+}
