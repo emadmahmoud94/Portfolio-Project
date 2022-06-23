@@ -28,9 +28,17 @@ a {
   position: fixed;
   text-align: center;
 }
+
+.nav a:hover {
+  border: 1px solid white;
+  padding: 5px;
+}
+.nav a:focus {
+  color: teal;
+}
+
 .nav {
   display: flex;
-  justify-content: space-around;
   font-weight: 700;
   list-style-type: none;
   margin: 0 auto;
