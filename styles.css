@@ -227,6 +227,30 @@ footer .fa-brands:hover {
 
 }
 
+@media screen and (max-width: 700px) {
+  .line {
+    display: none;
+  }
+  header {
+    background-size: auto;
+  }
+  .card {
+    margin: 10 auto 10;
+  }
+  
+  body {
+    background-color: lightgray;
+  }
+  .name {
+    display: none;
+  }
+
+  .nav li {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 .flex-projects {
   display: flex;
   justify-content: center;
