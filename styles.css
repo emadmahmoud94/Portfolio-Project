@@ -61,8 +61,7 @@ a {
 
 header {
   text-align: center;
-  background: url('images/black.jpg') no-repeat top center ;
-  background-size: 100% auto;
+  background: url('images/black.jpg') no-repeat center / cover;
   overflow: hidden;
   padding-top: 60px;
 }
@@ -117,10 +116,10 @@ main {
   text-align: center;
 }
 
-.line {
+.line { 
   border-left: 1px solid black;
   height: 410px;
-}
+ }
 
 ul.skills {
   padding: 0;
@@ -190,6 +189,11 @@ footer .fa-brands:hover {
   opacity: .5;
 }
 
+.wrap {
+  min-height: calc(100vh - 177px);
+  background-color: lightgray;
+}
+
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
   
@@ -200,6 +204,10 @@ footer .fa-brands:hover {
       -ms-flex-pack: distribute;
       justify-content: space-around;
       margin: 0 auto;
+  }
+
+  .card {
+    width: 48%;
   }
 
   header {
@@ -227,15 +235,13 @@ footer .fa-brands:hover {
 
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 719px) {
   .line {
     display: none;
   }
+
   header {
-    background-size: auto;
-  }
-  .card {
-    margin: 10 auto 10;
+    background: url('images/black.jpg') no-repeat center / cover;
   }
   
   body {
@@ -249,6 +255,7 @@ footer .fa-brands:hover {
     margin-left: auto;
     margin-right: auto;
   }
+
 }
 
 .flex-projects {
